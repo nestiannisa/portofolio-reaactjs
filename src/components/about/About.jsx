@@ -23,26 +23,35 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>Training & Bootcamp</small>
             </article>
-
+            {/**
+             * 
             <article className="about__card">
               <FiUser className="about__icon" />
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
             </article>
+             */}
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>3 Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-            ducimus recusandae praesentium ab voluptatum officiis, explicabo, ea
-            molestias beatae tempora obcaecati impedit quod. Deleniti, quasi
-            facilis officiis asperiores quia laboriosam.
+            Saya adalah <em>Fresh graduate</em> dari Politeknik Manufaktur Astra
+            dengan jurusan Mekatronika. Saya sempat mempelajari bahsa{" "}
+            <strong>C</strong> dan <strong>C++</strong> pada saat kuliah.
+            Setelah saya lulus kuliah saya mencoba mempelajari pemprograman lagi
+            dalam pembuatan website. Awalnya saya belajar dengan cara membeli
+            course online, lalu saya mengikuti sebuah pelatihan Web Developer
+            yang diadakan oleh <strong>Kominfo</strong> yang bekerjasama dengan
+            politeknik yang ada di indonesia yang dilakukan secara
+            daring/online. Setelah itu, saya mengikuti Bootcamp{" "}
+            <em>fullstack Node.js</em> yang di adakan oleh{" "}
+            <strong>Code.id</strong> yang dilakukan secara daring/online.
           </p>
 
           <a href="#contact" className="btn btn-primary">
@@ -50,8 +59,7 @@ const About = () => {
             Let's Talk
           </a>
         </div>
-      </div> 
-      
+      </div>
     </section>
   );
 };
