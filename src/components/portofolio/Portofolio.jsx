@@ -11,8 +11,8 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto',
-    github: "https://github.com",
+    title: 'Codigram',
+    github: "https://github.com/nestiannisa/Codigram",
     demo: 'https://dribble.com/Alien_pixels'
   },
   {
