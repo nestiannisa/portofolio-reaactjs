@@ -20,9 +20,14 @@ export const Nav = () => {
       <a href="#experience"
       onClick={() => setActiveNav('#experience')} 
       className={activeNav === '#experience' ? 'active' : ''}> <BiBook/></a>
+      {/**
       <a href="#services"
       onClick={() => setActiveNav('#services')} 
       className={activeNav === '#services' ? 'active' : ''}> <RiServerLine/></a>
+    */}
+    <a href="#portfolio"
+    onClick={() => setActiveNav('#portfolio')} 
+    className={activeNav === '#portfolio' ? 'active' : ''}> <RiServerLine/></a>
       <a href="#contact"
       onClick={() => setActiveNav('#contact')} 
       className={activeNav === '#contact' ? 'active' : ''}> <BiMessageSquareDetail/></a>

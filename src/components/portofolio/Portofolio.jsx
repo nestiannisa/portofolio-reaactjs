@@ -11,52 +11,55 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Codigram',
-    github: "https://github.com/nestiannisa/Codigram",
-    demo: 'https://dribble.com/Alien_pixels'
+    title: 'CRUD Website',
+    github: "https://github.com/nestiannisa/website-pendaftaran-siswa",
+    demo: 'https://siswa12.000webhostapp.com/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Crypto',
-    github: "https://github.com",
-    demo: 'https://dribble.com/Alien_pixels'
+    title: 'Codigram',
+    github: "https://github.com/nestiannisa/Codigram",
+//    demo: 'https://dribble.com/Alien_pixels'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Crypto',
+    title: 'Codihealth',
     github: "https://github.com",
-    demo: 'https://dribble.com/Alien_pixels'
+ //   demo: 'https://dribble.com/Alien_pixels'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Crypto',
+    title: 'Revamp Website Codeid',
     github: "https://github.com",
-    demo: 'https://dribble.com/Alien_pixels'
+   // demo: 'https://dribble.com/Alien_pixels'
   },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Crypto',
-    github: "https://github.com",
-    demo: 'https://dribble.com/Alien_pixels'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Crypto',
-    github: "https://github.com",
-    demo: 'https://dribble.com/Alien_pixels'
-  },
+  /**
+   * 
+   {
+     id: 5,
+     image: IMG5,
+     title: 'Crypto',
+     github: "https://github.com",
+     demo: 'https://dribble.com/Alien_pixels'
+    },
+    {
+      id: 6,
+      image: IMG6,
+      title: 'Crypto',
+      github: "https://github.com",
+      demo: 'https://dribble.com/Alien_pixels'
+    },
+    */
 ]
 
 const Portofolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portofolio</h2>
+      <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
 

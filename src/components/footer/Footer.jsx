@@ -21,21 +21,21 @@ const Footer = () => {
       link: '#experience',
       name: 'Experience'
     },
-    {
-      id:4,
-      link: '#services',
-      name: 'Services'
-    },
+   // {
+     // id:4,
+      //link: '#services',
+      //name: 'Services'
+    //},
     {
       id:5,
       link: '#portfolio',
       name: 'Portfolio'
     },
-    {
-      id:6,
-      link: '#tesrimonials',
-      name: 'Testimonials'
-    },
+    //{
+      //id:6,
+      //link: '#tesrimonials',
+      //name: 'Testimonials'
+    //},
     {
       id:7,
       link: '#contact',
