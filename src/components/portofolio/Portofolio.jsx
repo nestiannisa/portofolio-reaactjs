@@ -26,7 +26,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'Codihealth',
-    github: "https://github.com",
+    github: "https://github.com/nestiannisa/project-team-03.git",
  //   demo: 'https://dribble.com/Alien_pixels'
   },
   {
